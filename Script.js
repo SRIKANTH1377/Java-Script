@@ -34,7 +34,7 @@ console.log(typeof(a));       //undefined
 
 let nul=null;
 console.log(nul);                     //null
-console.log(typeof(nul));            //null
+console.log(typeof(nul));            //object
 
 // 4th question
 
@@ -51,8 +51,8 @@ console.log(e);                    //true
 console.log(typeof(e));            //boolean
 
 let f=false;
-console.log(f);                    //undefined
-console.log(typeof(f));           //undefined
+console.log(f);                    //false
+console.log(typeof(f));           //boolean
 
 let fruits=["apple","banana"]
 console.log(fruits);              //fruits
@@ -134,25 +134,32 @@ let q=++p;
 console.log(q);          //6
 
 // 12th question
-let r=10;
-let s=20;
+let r = 20;
+let s = 10;
+let t = "100";
 
-console.log(r==s);         //false
-console.log(r===s);        //false
-console.log(r!=s);         //true
-console.log(r!==s);        //true
-console.log(r>s);          //false
-console.log(r<s);          //true
-console.log(r>=s);         //false
-console.log(r<=s);         //true
-let t="30";
-let u="40";
-console.log(r==s);         //false
-console.log(r===s);        //false
-console.log(r!=s);         //true
-console.log(r!==s);        //true
-console.log(r>s);          //false
-console.log(r<s);          //true
-console.log(r>=s);         //false
-console.log(r<=s);         //true
+
+console.log("check ", r < t);                // true
+console.log(r == s);                        // false
+console.log("ckeck2", r == t);             // false
+
+console.log("ckeck3", r === t);             // false
+console.log(r === s);                       // false
+console.log(r != s);                       // true
+console.log("ckeck4", r != t);             // true
+
+console.log(r !== s);                      // true 
+console.log("ckeck5", r !== t);            // true
+
+console.log(l > m);                         // true
+console.log("ckeck6", r > t);                // false
+
+console.log(r < s);                          // false
+console.log("ckeck7", r === t);             // false
+
+console.log(r >= s);                        // true
+console.log("ckeck2", r >= t);              // false
+
+console.log(r <= s);                       // false
+console.log("ckeck2", r <= t);            // true
    
