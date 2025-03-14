@@ -60,7 +60,7 @@ console.log(typeof(fruits));      //object
 
 let h=null;
 console.log(h);                   //null
-console.log(typeof(h));           //null
+console.log(typeof(h));           //object
 
 // 5th question
 
